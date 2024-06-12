@@ -1,0 +1,7 @@
+CREATE TABLE Orders 
+(
+    Order_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    Customer_id INT NOT NULL FOREIGN KEY REFERENCES Customers(Customer_id),
+    Book_id INT NOT NULL FOREIGN KEY REFERENCES Books(Book_id),
+    Order_date DATE NOT NULL
+)

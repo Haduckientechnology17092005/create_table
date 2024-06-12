@@ -1,0 +1,6 @@
+CREATE TABLE Customers 
+(
+    Customer_id INT NOT  AUTO_INCREMENT  PRIMARY KEY,
+    Customer_name VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL
+)
